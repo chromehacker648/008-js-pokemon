@@ -4,7 +4,7 @@
   position:absolute;
   bottom: 20%;
   left: 10%;
-  background-image: url('mario.webp');
+  background-image: url('mewù.jpg');
   background-size: cover;
 }
 
@@ -12,6 +12,9 @@
   animation: jump 1000ms forwards;
 }
 
+body{
+  background-image: url('background.jpg');
+}
 
 @keyframes  jump {
     50%{
@@ -19,6 +22,6 @@
     }
     100%{
       bottom: 20%;
-      transform: rotate(-360deg);
+      transform: rotate(360deg);
     }
 }
