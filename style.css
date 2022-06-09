@@ -25,3 +25,19 @@ body{
       transform: rotate(360deg);
     }
 }
+
+.enemy{
+  position: absolute;
+  top: 60%;
+  left: 100%;
+  background-image: url('861-8619861_bullet-bill-super-mario-wiki-the-mario-encyclopedia.png.jpeg') ;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: darkslategray;
+  animation: enemyanim 4s linear;
+}
+
+@keyframes enemyanim{
+
+}
